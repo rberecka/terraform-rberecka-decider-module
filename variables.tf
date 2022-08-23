@@ -33,3 +33,8 @@ variable "have_icecream" {
   type = bool
   description = "Can you have ice cream?"
 }
+
+variable "current_street" {
+  type = string
+  description = "current street name"
+}
