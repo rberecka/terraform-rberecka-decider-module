@@ -6,8 +6,7 @@ output "story" {
           * You should get a ${random_pet.pet.id} for a pet 
             and name it ${var.favourite_author["first_name"]} ${var.first_teacher_last_name} von ${var.current_street}.
           * Go with the ${var.favourite_color} shirt today.
-          * Can you have iceream today? ${var.have_icecream}
-          * If true, have ${random_shuffle.icecream_choice.result[0]} iceream.
+          * If true, have ${random_shuffle.icecream_choice.result[0]} flavored icecream.
           * Keep that secret secret! Don't tell it to strangers on the internet!
           EOT
 }
