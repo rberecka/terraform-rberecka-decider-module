@@ -1,5 +1,5 @@
 output "story" {
-  sensitive = true
+  sensitive = false
  value = <<EOT
           Decisions can be hard. You might even say fatiguing. 
           These are the ones I've made for you so you don't have to!
